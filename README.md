@@ -5,7 +5,7 @@
 3. Advanced PHP
 
 # BASIC PHP
-1.  Php Installation & Setup
+1. Php Installation & Setup (XAMPP AND Virtual Mchines /Docker)
 2. Syntax & Operators
 3. Variables & Data Types
 4. Control Structurs & Functions
