@@ -5,34 +5,34 @@
 3. Advanced PHP
 
 # BASIC PHP
-> Php Installation & Setup
->Syntax & Operators
->Variables & Data Types
->Control Structurs & Functions
->Type Casting & Error Handling
->php.ini/web server configs
->working with arrays
->working with dates
+1.  Php Installation & Setup
+2. Syntax & Operators
+3. Variables & Data Types
+4. Control Structurs & Functions
+5. Type Casting & Error Handling
+6. php.ini/web server configs
+7. working with arrays
+8. working with dates
 and many more
 
 # INTERMEDIA PHP
->Classes & Methods
->Object Oriented PHP
->Code Style & PSR
->Namespaces & Autoloading
->Dependecy Management
->Super Globals($_*)
->Cookies & Sessions
->Databases
+1. Classes & Methods
+2. Object Oriented PHP
+3. Code Style & PSR
+4. Namespaces & Autoloading
+5. Dependecy Management
+6. Super Globals($_*)
+7. Cookies & Sessions
+8. Databases
 and many more
 
 # ADVANCED PHP
-> Testing, phpUnit, TDD, BDD
->Intro to MVC & Rounting
->Dependency Injection Container
->Caching and Security
->Frameworks
-PHP 8
-Hosting & Deployment
-Best Practices
+1.  Testing, phpUnit, TDD, BDD
+2. Intro to MVC & Rounting
+3. Dependency Injection Container
+4. Caching and Security
+5. Frameworks
+6. PHP 8
+7. Hosting & Deployment
+8. Best Practices
 and many more
