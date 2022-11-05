@@ -5,7 +5,8 @@ $e = 9;
 $match = match($e){
     1 => "hello one",
     2,40 => "or match",
-    7  => "and match"
+    7  => "and match",
+    default => "No match fount"
 };
 
 echo $match;
