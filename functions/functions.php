@@ -23,4 +23,15 @@ function donnex5(): mixed{
  function donnex7(): void{
     return;
  }
+ $sum = 0;
+ $sumNumbr = function (int|float|string ...$number) use($sum)  : int|float {
+   
+    $sum += array_sum($number);
+
+    return $sum;
+ };
+ echo $sumNumbr(29,20,2,33,44,443,12,214);
+
+//  $sum = array_map()
+ 
   echo donnex() . donnex2() . donnex3(7.9)  . donnex4() . donnex5();
