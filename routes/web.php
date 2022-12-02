@@ -16,8 +16,7 @@ Route::get('/', function(){
     $name = request('name');
     return view('welcome',["name"=>$name]);
 });
-Route::get('/hello', function(){
-    $array = ['hello'=>"hello donnex kamsonga", 'price'=>90];
-    return view('hello', ["array"=>$array]);
-    // return ['hlloe'=>"hello"];
+Route::get('/details/{id}', function($id){
+    
+    return view('details', ["id"=>$id]);
 });
