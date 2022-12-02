@@ -16,6 +16,7 @@ Route::get('/home', function(){
     return view('welcome');
 });
 Route::get('/hello', function(){
-    return view('hello',['hello'=>"hello donnex kamsonga"]);
+    $array = ['hello'=>"hello donnex kamsonga", 'price'=>90];
+    return view('hello', $array);
     // return ['hlloe'=>"hello"];
 });
