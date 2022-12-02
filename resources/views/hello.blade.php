@@ -7,23 +7,15 @@
     <title>Hello there</title>
 </head>
 <body>
-    <h1>Demo </h1>
-    @if($price >93)
-    <p>it too much sir</p>
-    @elseif($price == 90)
-    <p>hello there</p>
-    @else
-    <p>give one sir</p>
+    <h1>Reflesh on Laravel</h1>
+    @if($array)
+    @foreach ($array as $item)
+       <p> {{$item}}</p>
+    @endforeach
     @endif
-
-    @unless(1 == 4 )
-    <p>hello from unless</p>
-    @endunless
-
-    @php
-    $name = "jame kamsonga";
-    echo $name;
-    @endphp
-
+    <p>hello</p>
+    @for ($i = 0; $i < 3; $i++)
+        <p>the vaule of i is {{$i}} </p>
+    @endfor
 </body>
 </html>
