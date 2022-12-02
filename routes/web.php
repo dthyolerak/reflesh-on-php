@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function(){
-    return view('welcome');
+    $name = request('name');
+    return view('welcome',["name"=>$name]);
 });
 Route::get('/hello', function(){
     $array = ['hello'=>"hello donnex kamsonga", 'price'=>90];
