@@ -1,12 +1,9 @@
 @extends('layout.layout')
 @section('page-title')
-<title>Home page</title>
+    <title> about us page</title>
 @endsection
 @section('content')
     @php
-        print_r("hello there");
-        echo $number;
+    this is about us page with id {{$number}}
     @endphp
-    
 @endsection
-

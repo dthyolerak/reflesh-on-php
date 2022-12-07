@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,11 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function(){
-    $name = request('name');
-    return view('welcome',["name"=>$name]);
-});
-Route::get('/details/{id}', function($id){
-    
-    return view('details', ["id"=>$id]);
-});
+Route::get('/aboutus', 'App\Http\Controllers\BackeryController@index');
+// Route::get('/aboutus/{id}', 'App\Http\Controllers\BackeryController@show');
+Route::get('/aboutus/{id}', 'App\Http\Controllers\BackeryController@getNumber');
