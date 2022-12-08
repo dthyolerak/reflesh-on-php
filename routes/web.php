@@ -1,6 +1,5 @@
 <?php
 
-
 use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +11,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/aboutus', 'App\Http\Controllers\BackeryController@index');
-// Route::get('/aboutus/{id}', 'App\Http\Controllers\BackeryController@show');
-Route::get('/aboutus/{id}', 'App\Http\Controllers\BackeryController@getNumber');
+Route::get('/order', 'App\Http\Controllers\OrderController@index');
+Route::get('/order/create', 'App\Http\Controllers\OrderController@create');
+Route::get('/order/{id}', 'App\Http\Controllers\OrderController@show');

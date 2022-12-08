@@ -4,5 +4,5 @@
 @endsection
 
 @section('content')
-    echo {{$order}}
+    home
 @endsection
